@@ -74,17 +74,10 @@ var APP_DATA = {
           "target": "0--"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 2.8394427865488296,
-          "pitch": 0.21402572388576502,
-          "title": "Входная часть",
-          "text": "<br>"
-        }
-      ]
+      "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Vira 3D - Демо",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
