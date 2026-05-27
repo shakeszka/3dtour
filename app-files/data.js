@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-bedroom",
-      "name": "Bedroom",
+      "id": "0--",
+      "name": "Входная часть",
       "levels": [
         {
           "tileSize": 256,
@@ -24,16 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.6733874163783113,
+        "pitch": 0.0261312628559196,
+        "fov": 1.5779262570687063
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.2318111010953317,
+          "pitch": 0.07437798762680714,
+          "rotation": 0,
+          "target": "1-"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "1-living-room",
-      "name": "Living Room",
+      "id": "1-",
+      "name": "Балкон",
       "levels": [
         {
           "tileSize": 256,
@@ -55,42 +62,18 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.7632906595388498,
+        "pitch": 0.0544284929119776,
+        "fov": 1.5779262570687063
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-pool-indoor",
-      "name": "Pool Indoor",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 2.8388465714787,
+          "pitch": 0.08061663987734846,
+          "rotation": 0,
+          "target": "0--"
         }
       ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
@@ -99,6 +82,6 @@ var APP_DATA = {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": false,
-    "viewControlButtons": false
+    "viewControlButtons": true
   }
 };
